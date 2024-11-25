@@ -1,5 +1,5 @@
 <style>
-    /* General body styling */
+  /* General body styling */
     body {
       color: white;
       margin: 0;
@@ -8,10 +8,10 @@
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0.3)
         ),
-        url('Images/Backgrounds/Sunset1background.jpg') center/cover no-repeat;
+        url('../Images/Backgrounds/Sunset1background.jpg') center/cover no-repeat;
     }
 
-    /* Styling for the T-chart */
+  /* Styling for the T-chart */
     .t-chart {
       display: flex;
       flex-direction: column;
@@ -23,7 +23,7 @@
       background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
     }
 
-    /* Top of the T */
+  /* Top of the T */
     .top-bar {
       background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
       text-align: center;
@@ -34,14 +34,14 @@
       border-bottom: 2px solid white;
     }
 
-    /* Bottom section (side-by-side content) */
+  /* Bottom section (side-by-side content) */
     .bottom-section {
       display: flex;
       flex: 1; /* Let this section expand to fill space */
       min-height: 300px; /* Adjust for larger sections */
     }
 
-    /* Left and right content */
+  /* Left and right content */
     .left-column, .right-column {
       flex: 1;
       padding: 20px;
@@ -53,8 +53,8 @@
       border-right: none; /* Remove border on the right */
     }
 
-    /* Center title in the cloumns*/
+  /* Center title in the cloumns*/
     .left-column h3, .right-column h3 {
       text-align: center;
     }
-  </style>
+</style>
