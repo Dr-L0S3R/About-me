@@ -1,4 +1,4 @@
-
+<style>
   /* General body styling */
     body {
       color: white;
@@ -57,3 +57,4 @@
     .left-column h3, .right-column h3 {
       text-align: center;
     }
+</style>
