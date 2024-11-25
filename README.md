@@ -1,1 +1,1 @@
-This is a website for my About-me for my accounts! Created by me! Dr.L with Visual Studio Code.
+This is a website for my About-me for my accounts! Created by me, Dr.L! With Visual Studio Code. If you want to, you can download this and edit the code to describe your account(s). You'll just have to create a repository and download git and set it up.

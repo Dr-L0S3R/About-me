@@ -1,0 +1,60 @@
+<style>
+    /* General body styling */
+    body {
+      color: white;
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('Images/Backgrounds/Sunset1background.jpg') center/cover no-repeat;
+    }
+
+    /* Styling for the T-chart */
+    .t-chart {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 20px auto; /* Center the chart with spacing from the top */
+      border: 2px solid white; /* Outline for visibility */
+      border-radius: 8px; /* Rounded corners */
+      overflow: hidden; /* Prevent content overflow */
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    }
+
+    /* Top of the T */
+    .top-bar {
+      background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: white; /* Ensure text is visible */
+      border-bottom: 2px solid white;
+    }
+
+    /* Bottom section (side-by-side content) */
+    .bottom-section {
+      display: flex;
+      flex: 1; /* Let this section expand to fill space */
+      min-height: 300px; /* Adjust for larger sections */
+    }
+
+    /* Left and right content */
+    .left-column, .right-column {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid white;
+      color: white;
+    }
+
+    .right-column {
+      border-right: none; /* Remove border on the right */
+    }
+
+    /* Center title in the cloumns*/
+    .left-column h3, .right-column h3 {
+      text-align: center;
+    }
+  </style>
