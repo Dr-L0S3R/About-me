@@ -56,4 +56,10 @@ body {
 .left-column h3, .right-column h3 {
   text-align: center;
 }
+{p
+  font:Comic
+}
+h1{
+  font:Arial
+}
 /* fixed */
