@@ -57,9 +57,9 @@ body {
   text-align: center;
 }
 {p
-  font:Comic
+  font: 'Times';
 }
 h1{
-  font:Arial
+  font:'Arial';
 }
 /* fixed */
